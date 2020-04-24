@@ -1,0 +1,7 @@
+{
+  "FolderName": "DateAndTime",
+  "Settings": {
+    "WeekDays": ["Dimanche", "Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi"],
+    "Months": ["Janvier", "Février", "Mars", "Avril", "Mai", "Juin", "Juillet", "Août", "Septembre", "Octobre", "Novembre", "Décembre"]
+  }
+}
