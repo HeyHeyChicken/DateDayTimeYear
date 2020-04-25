@@ -21,8 +21,8 @@ This skill will allow you to know the current date and the current time.
 
 ## Features
 
-- It will allow your assistant to roll a die (give you a number between 1 and 6).
-- It will allow your assistant give you a number between x and y.
+- It will allow your assistant to give you today's date.
+- It will allow your assistant give you the current time.
 
 ## Support and contribution
 
