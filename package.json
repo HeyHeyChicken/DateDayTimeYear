@@ -1,0 +1,16 @@
+{
+  "name": "nova-dateandtime",
+  "version": "1.0.0",
+  "description": "This skill will allow you to know the current date and the current time.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HeyHeyChicken/NOVA-DateAndTime.git"
+  },
+  "author": "Antoine Duval",
+  "license": "SEE LICENSE IN LICENSE FILE",
+  "bugs": {
+    "url": "https://github.com/HeyHeyChicken/NOVA-DateAndTime/issues"
+  },
+  "homepage": "https://github.com/HeyHeyChicken/NOVA-DateAndTime#readme"
+}
