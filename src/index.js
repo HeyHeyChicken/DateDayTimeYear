@@ -9,19 +9,15 @@ class DateAndTime extends LIBRARIES.Skill{
 
     this.Main.Manager.addAction("date.get", function(_intent, _socket){
       const DATE = new Date();
-      _intent.answer(_socket, "Nous sommes le " + SELF.Settings.WeekDays[DATE.getDay()] + " " + DATE.getDate() + " " + SELF.Settings.Months[DATE.getMonth()] + " " + DATE.getFullYear() + ".");
+      _intent.Variables.date = SELF.Settings.WeekDays[DATE.getDay()] + " " + DATE.getDate() + " " + SELF.Settings.Months[DATE.getMonth()] + " " + DATE.getFullYear();
+      _intent.answer(_socket);
     });
 
     this.Main.Manager.addAction("time.get", function(_intent, _socket){
       const DATE = new Date();
-      let text = "Il est " + DATE.getHours() + " heures";
-      if(DATE.getMinutes() === 0){
-        text += ".";
-      }
-      else{
-        text += " " + DATE.getMinutes() + ".";
-      }
-      _intent.answer(_socket, text);
+      _intent.Variables.hour = DATE.getHours();
+      _intent.Variables.minute = DATE.getMinutes();
+      _intent.answer(_socket);
     });
   }
 }

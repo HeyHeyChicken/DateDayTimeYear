@@ -9,6 +9,9 @@
         "Nous sommes le combien",
         "Quelle est la date du jour",
         "Donne-moi la date du jour"
+      ],
+      "answers": [
+        "Nous sommes le %date%."
       ]
     },
     {
@@ -16,6 +19,9 @@
       "utterances": [
         "Quelle heure est-il",
         "Donne-moi l'heure"
+      ],
+      "answers": [
+        "Il est %hour% heures %minute%."
       ]
     }
   ]
