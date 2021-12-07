@@ -19,6 +19,12 @@ class DateAndTime extends LIBRARIES.Skill{
       _intent.Variables.minute = DATE.getMinutes();
       _intent.answer(_socket);
     });
+
+    this.Main.Manager.addAction("year.get", function(_intent, _socket){
+      const DATE = new Date();
+      _intent.Variables.year = DATE.getFullYear();
+      _intent.answer(_socket);
+    });
   }
 }
 

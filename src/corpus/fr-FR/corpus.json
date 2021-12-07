@@ -23,6 +23,15 @@
       "answers": [
         "Il est %hour% heures %minute%."
       ]
+    },
+    {
+      "intent": "year.get",
+      "utterances": [
+        "Quelle année sommes-nous"
+      ],
+      "answers": [
+        "Nous sommes en %year%."
+      ]
     }
   ]
 }
