@@ -25,6 +25,12 @@ class DateAndTime extends LIBRARIES.Skill{
       _intent.Variables.year = DATE.getFullYear();
       _intent.answer(_socket);
     });
+
+    this.Main.Manager.addAction("day.get", function(_intent, _socket){
+      const DATE = new Date();
+      _intent.Variables.day = SELF.Settings.WeekDays[DATE.getDay()];
+      _intent.answer(_socket);
+    });
   }
 }
 
