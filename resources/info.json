@@ -1,0 +1,10 @@
+{
+	"worksOffline" : true,
+	"description" : {
+		"fr-FR": "Cette compétence permettra à votre assistant de connaître la date, l'heure et l'année actuelle.",
+		"en-US": "This skill will allow your assistant to know the current date, time and year."
+	},
+	"language": [
+		"fr-FR"
+	]
+}
