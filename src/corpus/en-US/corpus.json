@@ -1,0 +1,60 @@
+{
+  "name": "Count",
+  "data": [
+    {
+      "intent": "date.get",
+      "utterances": [
+        "What day is it today",
+        "What day is it",
+        "What is today's date",
+        "What is the date",
+        "Quelle date on est",
+        "What date we are",
+        "What date is it",
+        "Give me today's date",
+        "Please give me today's date",
+        "Give me today's date please"
+      ],
+      "answers": [
+        "Today is %date%."
+      ]
+    },
+    {
+      "intent": "time.get",
+      "utterances": [
+        "What time is it",
+        "What time is it please",
+        "Give me the time",
+        "Please tell me the time"
+      ],
+      "answers": [
+        "It's %hour% %minute%."
+      ]
+    },
+    {
+      "intent": "year.get",
+      "utterances": [
+        "What year are we",
+        "What year is it",
+        "What is the current year please",
+        "What is the current year",
+        "Give me the year please",
+        "Give me the year"
+      ],
+      "answers": [
+        "We are in %year%."
+      ]
+    },
+    {
+      "intent": "day.get",
+      "utterances": [
+        "What day it is",
+        "What day is it",
+        "What day of the week are we"
+      ],
+      "answers": [
+        "It is %day%."
+      ]
+    }
+  ]
+}
