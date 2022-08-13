@@ -5,6 +5,7 @@
 		"en-US": "This skill will allow your assistant to know the current date, time and year."
 	},
 	"language": [
-		"fr-FR"
+		"fr-FR",
+		"en-US"
 	]
 }
